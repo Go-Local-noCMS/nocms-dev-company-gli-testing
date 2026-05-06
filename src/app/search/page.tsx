@@ -89,7 +89,7 @@ export default function SiteSearchPage() {
             </div>
             <button
               type="submit"
-              className="inline-flex items-center justify-center bg-primary text-white font-semibold px-5 py-3 rounded-md hover:opacity-90 transition-opacity"
+              className="inline-flex items-center justify-center bg-primary text-white font-semibold px-5 py-3 rounded-md hover:opacity-90 transition-opacity" data-role="cta"
             >
               Search
             </button>
@@ -116,7 +116,7 @@ export default function SiteSearchPage() {
                     <span className="text-xs font-semibold uppercase tracking-wide text-primary">
                       {hit.kind === "facility" ? "Location" : "Article"}
                     </span>
-                    <p className="mt-1 font-heading text-lg font-semibold text-text">
+                    <p className="mt-1 font-heading text-lg font-semibold text-text" data-role="subheading-2">
                       {hit.title}
                     </p>
                     <p className="mt-1 text-sm text-muted">{hit.description}</p>

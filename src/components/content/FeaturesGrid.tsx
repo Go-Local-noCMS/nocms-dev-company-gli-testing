@@ -89,7 +89,7 @@ export function FeaturesGrid({
             {heading}
           </h2>
           {description && (
-            <p className="mt-4 text-muted text-lg">{description}</p>
+            <p className="mt-4 text-muted text-lg" data-role="subheading">{description}</p>
           )}
         </div>
 
@@ -125,7 +125,7 @@ export function FeaturesGrid({
         )}
 
         {disclaimer && (
-          <p className="mt-8 text-sm text-muted text-center max-w-3xl mx-auto">
+          <p className="mt-8 text-sm text-muted text-center max-w-3xl mx-auto" data-role="subheading-2">
             {disclaimer}
           </p>
         )}

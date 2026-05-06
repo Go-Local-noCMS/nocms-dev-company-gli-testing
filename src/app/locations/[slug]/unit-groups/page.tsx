@@ -57,7 +57,7 @@ export default async function UnitGroupsPage({ params }: Props) {
   if (slug === "_placeholder") {
     return (
       <main className="mx-auto max-w-3xl px-6 py-16">
-        <h1 className="text-3xl font-semibold">Available sizes</h1>
+        <h1 className="text-3xl font-semibold" data-role="heading-2">Available sizes</h1>
         <p className="mt-4 text-zinc-600">
           Pick a location on the locations page to see available units.
         </p>
@@ -137,7 +137,7 @@ export default async function UnitGroupsPage({ params }: Props) {
                 <section key={unitType} aria-labelledby={`type-${unitType}`}>
                   <h2
                     id={`type-${unitType}`}
-                    className="font-heading text-xl font-semibold text-text mb-4"
+                    className="font-heading text-xl font-semibold text-text mb-4" data-role="heading-3"
                   >
                     {unitType}
                   </h2>

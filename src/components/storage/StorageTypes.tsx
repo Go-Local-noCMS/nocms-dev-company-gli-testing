@@ -109,7 +109,7 @@ export function StorageTypes({
                 >
                   <Icon className="h-7 w-7" />
                 </div>
-                <h3 className="font-heading text-lg font-semibold text-text mb-2">
+                <h3 className="font-heading text-lg font-semibold text-text mb-2" data-role="heading-2">
                   {t.title}
                 </h3>
                 {t.description && (

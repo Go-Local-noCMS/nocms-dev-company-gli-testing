@@ -25,7 +25,7 @@ export default async function BlogPostPage({ params }: Props) {
   if (slug === "_placeholder") {
     return (
       <main className="mx-auto max-w-2xl px-6 py-16">
-        <h1 className="text-3xl font-semibold tracking-tight">Blog</h1>
+        <h1 className="text-3xl font-semibold tracking-tight" data-role="heading-2">Blog</h1>
         <p className="mt-4 text-zinc-600">No posts yet.</p>
       </main>
     );

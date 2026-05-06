@@ -197,7 +197,7 @@ export function Navbar({
               )}
               <a
                 href={ctaHref}
-                className="block text-center bg-secondary text-white font-semibold px-6 py-3 rounded-md shadow-lg"
+                className="block text-center bg-secondary text-white font-semibold px-6 py-3 rounded-md shadow-lg" data-role="cta-2"
               >
                 {ctaText}
               </a>

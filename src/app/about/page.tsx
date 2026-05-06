@@ -69,7 +69,7 @@ export default function AboutPage() {
 
       <section className="py-16 lg:py-20 bg-background">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-6">
+          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-6" data-role="heading-2">
             Our story
           </h2>
           <div className="text-lg text-muted leading-relaxed space-y-5 text-left">
@@ -95,7 +95,7 @@ export default function AboutPage() {
 
       <section className="py-16 lg:py-20 bg-surface">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-3xl font-bold text-text text-center mb-12">
+          <h2 className="font-heading text-3xl font-bold text-text text-center mb-12" data-role="heading-3">
             What sets us apart
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -107,10 +107,10 @@ export default function AboutPage() {
                 <div className="h-14 w-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
                   <value.icon className="h-7 w-7 text-primary" aria-hidden="true" />
                 </div>
-                <h3 className="font-heading text-lg font-bold text-text mb-2">
+                <h3 className="font-heading text-lg font-bold text-text mb-2" data-role="heading-4">
                   {value.title}
                 </h3>
-                <p className="text-muted text-sm leading-relaxed">{value.description}</p>
+                <p className="text-muted text-sm leading-relaxed" data-role="subheading-2">{value.description}</p>
               </div>
             ))}
           </div>

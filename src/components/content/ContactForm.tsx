@@ -56,7 +56,7 @@ export function ContactForm({
     return (
       <div data-nocms-component="contact-form" className="bg-surface rounded-xl p-12 text-center">
         <CheckCircle className="h-16 w-16 text-primary mx-auto mb-6" aria-hidden="true" />
-        <h3 className="font-heading text-2xl font-bold text-text mb-3">Thank You!</h3>
+        <h3 className="font-heading text-2xl font-bold text-text mb-3" data-role="heading-2">Thank You!</h3>
         <p className="text-muted max-w-md mx-auto" data-role="subheading">
           We have received your message and will be in touch within 24 hours. In the meantime, feel free to call us or schedule a tour.
         </p>
@@ -67,7 +67,7 @@ export function ContactForm({
   return (
     <div data-nocms-component="contact-form">
       {heading && <h2 data-role="heading" className="font-heading text-3xl font-bold text-text mb-3">{heading}</h2>}
-      {description && <p className="text-muted mb-8 max-w-lg">{description}</p>}
+      {description && <p className="text-muted mb-8 max-w-lg" data-role="subheading-2">{description}</p>}
       <form onSubmit={handleSubmit} className="space-y-5">
         {(fields ?? []).map((field) => (
           <div key={field.name}>

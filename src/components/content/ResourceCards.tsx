@@ -86,7 +86,7 @@ export function ResourceCards({
                   </div>
                 )}
                 <div className="p-6">
-                  <h3 className="font-heading text-lg font-bold text-text mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-heading text-lg font-bold text-text mb-2 group-hover:text-primary transition-colors" data-role="heading-2">
                     {resource.title}
                   </h3>
                   <p className="text-muted text-sm leading-relaxed mb-4" data-role="subheading">

@@ -50,7 +50,7 @@ export default async function FacilityDetailPage({ params }: Props) {
   if (slug === "_placeholder") {
     return (
       <main className="mx-auto max-w-3xl px-6 py-16">
-        <h1 className="text-3xl font-semibold tracking-tight">Locations</h1>
+        <h1 className="text-3xl font-semibold tracking-tight" data-role="heading-2">Locations</h1>
         <p className="mt-4 text-zinc-600">
           No locations are configured yet. Once your facility data is loaded, location pages
           will appear here.
