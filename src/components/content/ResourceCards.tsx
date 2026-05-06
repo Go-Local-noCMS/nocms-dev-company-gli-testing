@@ -92,7 +92,7 @@ export function ResourceCards({
                   <p className="text-muted text-sm leading-relaxed mb-4" data-role="subheading">
                     {resource.description}
                   </p>
-                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary group-hover:gap-3 transition-all">
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary group-hover:gap-3 transition-all" data-role="text">
                     Read More <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </span>
                 </div>

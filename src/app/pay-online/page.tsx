@@ -50,7 +50,7 @@ export default function PayOnlinePage() {
               <h3 className="font-heading text-lg font-semibold text-text mb-2" data-role="heading-3">
                 Pay your bill
               </h3>
-              <p className="text-sm text-muted">
+              <p className="text-sm text-muted" data-role="text">
                 Card, ACH, or stored payment method — all in one click.
               </p>
             </div>
@@ -61,7 +61,7 @@ export default function PayOnlinePage() {
               <h3 className="font-heading text-lg font-semibold text-text mb-2" data-role="heading-4">
                 Auto-pay
               </h3>
-              <p className="text-sm text-muted">
+              <p className="text-sm text-muted" data-role="text-2">
                 Set it once and never miss a due date or late fee.
               </p>
             </div>
@@ -72,7 +72,7 @@ export default function PayOnlinePage() {
               <h3 className="font-heading text-lg font-semibold text-text mb-2" data-role="heading-5">
                 Account history
               </h3>
-              <p className="text-sm text-muted">
+              <p className="text-sm text-muted" data-role="text-3">
                 Download receipts and review past payments any time.
               </p>
             </div>
@@ -88,7 +88,7 @@ export default function PayOnlinePage() {
           <h2 className="font-heading text-3xl font-bold text-text mb-4" data-role="heading-6">
             Online payment portal
           </h2>
-          <p className="text-muted mb-8">
+          <p className="text-muted mb-8" data-role="text-4">
             Your payment portal is provided by your facility&apos;s management software. Sign in with
             your tenant account to make a payment, view balances, or update payment information.
           </p>
@@ -99,7 +99,7 @@ export default function PayOnlinePage() {
             Open payment portal
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </a>
-          <p className="mt-4 text-xs text-muted">
+          <p className="mt-4 text-xs text-muted" data-role="text-5">
             Need help signing in? Call {skinConfig.contactPhone ?? "us"} during office hours.
           </p>
         </div>

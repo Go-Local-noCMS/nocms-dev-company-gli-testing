@@ -55,7 +55,7 @@ export default function BlogCategoryIndexPage() {
       <section className="py-12 lg:py-16 bg-background">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           {categories.length === 0 ? (
-            <p className="text-muted">No categories yet.</p>
+            <p className="text-muted" data-role="text">No categories yet.</p>
           ) : (
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {categories.map((c) => (

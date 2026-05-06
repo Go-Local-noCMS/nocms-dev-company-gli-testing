@@ -48,7 +48,7 @@ export default function PricingPage() {
                   <h3 className="font-heading text-2xl font-bold text-text" data-role="heading-3">
                     {size.name}
                   </h3>
-                  <span className="text-xs font-semibold uppercase tracking-wide text-muted">
+                  <span className="text-xs font-semibold uppercase tracking-wide text-muted" data-role="text">
                     {size.sqft} sq ft
                   </span>
                 </div>
@@ -58,14 +58,14 @@ export default function PricingPage() {
                 </p>
                 {size.startingPrice && (
                   <p className="mb-4">
-                    <span className="text-xs font-semibold uppercase tracking-wide text-muted">
+                    <span className="text-xs font-semibold uppercase tracking-wide text-muted" data-role="text-2">
                       Starting at
                     </span>
                     <br />
-                    <span className="font-heading text-3xl font-bold text-primary">
+                    <span className="font-heading text-3xl font-bold text-primary" data-role="text-3">
                       ${size.startingPrice}
                     </span>
-                    <span className="text-sm text-muted"> / mo</span>
+                    <span className="text-sm text-muted" data-role="text-4"> / mo</span>
                   </p>
                 )}
                 <ul className="text-sm text-text space-y-1 mb-6">
@@ -95,10 +95,10 @@ export default function PricingPage() {
             What&apos;s included
           </h2>
           <ul className="text-text leading-relaxed space-y-2">
-            <li>Month-to-month rentals — cancel any time with 10 days&apos; notice.</li>
-            <li>24/7 surveillance and gated access at every location.</li>
-            <li>Online bill pay, autopay, and account access.</li>
-            <li>No setup or admin fees beyond the first month and a small lock fee.</li>
+            <li data-role="text-5">Month-to-month rentals — cancel any time with 10 days&apos; notice.</li>
+            <li data-role="text-6">24/7 surveillance and gated access at every location.</li>
+            <li data-role="text-7">Online bill pay, autopay, and account access.</li>
+            <li data-role="text-8">No setup or admin fees beyond the first month and a small lock fee.</li>
           </ul>
         </div>
       </section>

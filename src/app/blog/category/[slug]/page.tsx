@@ -45,7 +45,7 @@ export default async function BlogCategoryPage({ params }: Props) {
     return (
       <main className="mx-auto max-w-3xl px-6 py-16">
         <h1 className="text-3xl font-semibold tracking-tight" data-role="heading-2">Categories</h1>
-        <p className="mt-4 text-zinc-600">No categories yet.</p>
+        <p className="mt-4 text-zinc-600" data-role="text">No categories yet.</p>
       </main>
     );
   }
@@ -71,7 +71,7 @@ export default async function BlogCategoryPage({ params }: Props) {
             ]}
             className="mb-6"
           />
-          <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-2">
+          <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-2" data-role="text-2">
             Category
           </p>
           <h1

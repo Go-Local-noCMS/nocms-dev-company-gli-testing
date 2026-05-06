@@ -163,7 +163,7 @@ export const DialogContent: React.FC<DialogContentProps> = ({
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
-          <span className="sr-only">Close dialog</span>
+          <span className="sr-only" data-role="text">Close dialog</span>
         </button>
       </div>
     </div>

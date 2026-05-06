@@ -62,7 +62,7 @@ export function BlogSearch({
             Search
           </button>
         </div>
-        <span id="blog-search-help" className="sr-only">
+        <span id="blog-search-help" className="sr-only" data-role="text">
           Search blog posts by title, content, or keywords
         </span>
       </fieldset>

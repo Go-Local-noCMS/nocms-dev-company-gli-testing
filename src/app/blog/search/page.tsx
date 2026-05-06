@@ -93,16 +93,16 @@ export default function BlogSearchPage() {
       <section className="py-12 lg:py-16 bg-background">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           {!submitted ? (
-            <p className="text-muted">
+            <p className="text-muted" data-role="text">
               Enter a keyword above to search the blog.
             </p>
           ) : results.length === 0 ? (
-            <p className="text-muted">
+            <p className="text-muted" data-role="text-2">
               No articles found for <strong>{submitted}</strong>.
             </p>
           ) : (
             <>
-              <p className="text-muted mb-6">
+              <p className="text-muted mb-6" data-role="text-3">
                 Found {results.length} {results.length === 1 ? "article" : "articles"} for{" "}
                 <strong className="text-text">{submitted}</strong>.
               </p>

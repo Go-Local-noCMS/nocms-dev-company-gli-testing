@@ -77,7 +77,7 @@ export function Footer({
                     </a>
                   </>
                 )}
-                {phone && email && <span className="mx-1">&middot;</span>}
+                {phone && email && <span className="mx-1" data-role="text">&middot;</span>}
                 {email && (
                   <>
                     <Mail className="h-4 w-4 text-primary shrink-0" aria-hidden="true" />
@@ -88,7 +88,7 @@ export function Footer({
                 )}
               </div>
             )}
-            <p className="text-white/50 text-xs">Mon&ndash;Fri: 9am&ndash;6pm &middot; Sat: 9am&ndash;5pm &middot; Sun: 10am&ndash;4pm</p>
+            <p className="text-white/50 text-xs" data-role="text-2">Mon&ndash;Fri: 9am&ndash;6pm &middot; Sat: 9am&ndash;5pm &middot; Sun: 10am&ndash;4pm</p>
           </div>
         </div>
 

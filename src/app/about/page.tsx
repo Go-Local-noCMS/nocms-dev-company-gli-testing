@@ -73,19 +73,19 @@ export default function AboutPage() {
             Our story
           </h2>
           <div className="text-lg text-muted leading-relaxed space-y-5 text-left">
-            <p>
+            <p data-role="text">
               {skinConfig.brandName} started with a simple idea: most storage facilities are
               afterthoughts — converted warehouses, dim hallways, faceless leasing offices. We
               wanted something different. Purpose-built buildings with wide drive aisles, real
               climate control, and a manager who recognizes you.
             </p>
-            <p>
+            <p data-role="text-2">
               Today we serve hundreds of customers across the metro. Personal storage during a
               renovation, business inventory for a growing online shop, vehicle parking through the
               winter — whatever you&apos;re storing, we&apos;ve probably stored something like it
               before.
             </p>
-            <p>
+            <p data-role="text-3">
               We&apos;re locally owned, month-to-month by default, and we never charge fees for
               things that should be free. That&apos;s the whole pitch.
             </p>

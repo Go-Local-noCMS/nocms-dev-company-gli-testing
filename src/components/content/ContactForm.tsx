@@ -73,7 +73,7 @@ export function ContactForm({
           <div key={field.name}>
             <label htmlFor={field.name} className="block text-sm font-medium text-text mb-1.5">
               {field.label}
-              {field.required && <span className="text-secondary ml-1" aria-hidden="true">*</span>}
+              {field.required && <span className="text-secondary ml-1" aria-hidden="true" data-role="text">*</span>}
             </label>
             {field.type === "textarea" ? (
               <textarea

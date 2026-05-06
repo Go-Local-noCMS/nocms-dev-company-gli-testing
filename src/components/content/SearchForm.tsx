@@ -99,7 +99,7 @@ export function SearchForm({
         <button
           type="submit"
           className={`inline-flex items-center justify-center gap-2 bg-primary text-white font-semibold rounded-md ${sizing.btn} hover:opacity-90 transition-opacity`}
-          aria-label="Search for storage locations"
+          aria-label="Search for storage locations" data-role="text"
         >
           Search
         </button>
@@ -108,7 +108,7 @@ export function SearchForm({
             type="button"
             onClick={onNearMe}
             className={`inline-flex items-center justify-center gap-2 border-2 border-primary text-primary font-semibold rounded-md ${sizing.btn} hover:bg-primary/5 transition-colors`}
-            aria-label="Find storage locations near me"
+            aria-label="Find storage locations near me" data-role="text-2"
           >
             <MapPin className="h-4 w-4" aria-hidden="true" />
             Near Me

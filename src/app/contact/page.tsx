@@ -75,7 +75,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-text" data-role="heading-5">Office</h3>
-                      <p className="text-muted">
+                      <p className="text-muted" data-role="text">
                         {skinConfig.primaryAddress.line1}, {skinConfig.primaryAddress.city},{" "}
                         {skinConfig.primaryAddress.state} {skinConfig.primaryAddress.zip}
                       </p>
@@ -88,10 +88,10 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-text" data-role="heading-6">Office hours</h3>
-                    <p className="text-muted">Mon–Fri: 9:00 AM – 6:00 PM</p>
-                    <p className="text-muted">Saturday: 9:00 AM – 5:00 PM</p>
-                    <p className="text-muted">Sunday: 10:00 AM – 4:00 PM</p>
-                    <p className="text-muted text-sm mt-1">
+                    <p className="text-muted" data-role="text-2">Mon–Fri: 9:00 AM – 6:00 PM</p>
+                    <p className="text-muted" data-role="text-3">Saturday: 9:00 AM – 5:00 PM</p>
+                    <p className="text-muted" data-role="text-4">Sunday: 10:00 AM – 4:00 PM</p>
+                    <p className="text-muted text-sm mt-1" data-role="text-5">
                       Gate access available outside office hours at most facilities.
                     </p>
                   </div>

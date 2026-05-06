@@ -92,7 +92,7 @@ export function Testimonials({
             >
               <ChevronLeft className="h-5 w-5 text-text" />
             </button>
-            <span className="text-sm text-muted">
+            <span className="text-sm text-muted" data-role="text">
               {currentIndex + 1} / {testimonials.length}
             </span>
             <button

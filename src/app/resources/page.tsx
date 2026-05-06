@@ -67,7 +67,7 @@ export default function ResourcesPage() {
                 <p className="text-muted text-sm leading-relaxed mb-4" data-role="subheading-2">
                   {card.description}
                 </p>
-                <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary group-hover:gap-3 transition-all">
+                <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary group-hover:gap-3 transition-all" data-role="text">
                   Open
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </span>
